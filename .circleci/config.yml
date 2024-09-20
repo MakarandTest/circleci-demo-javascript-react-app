@@ -9,7 +9,7 @@ jobs:
     docker:
       - image: cimg/node:17.2.0
     steps:
-    	- checkout
+        - checkout
 	    -run:
 	       name: Install dependencies
 	       command: npm install
